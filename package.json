@@ -25,6 +25,12 @@
     "babel-plugin-minify-replace": "0.5.0",
     "fbjs": "1.0.0",
     "npm": "^6.4.1",
-    "optimist": "^0.6.1"
-  }
+    "optimist": "^0.6.1",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
