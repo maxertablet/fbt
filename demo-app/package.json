@@ -68,7 +68,7 @@
     "babel-plugin-minify-replace": "0.5.0",
     "fbjs": "1.0.0",
     "lodash": "4.17.11",
-    "npm": "^6.4.1",
+    "npm": "^6.6.0",
     "optimist": "^0.6.1"
   }
 }
